@@ -1,0 +1,253 @@
+.Home {
+  color: #000000;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.caret {
+  width: 0;
+  height: 0;
+  display: inline-block;
+  border: 5px solid transparent;
+  border-bottom-color: #999999;
+}
+
+.point_button {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+}
+
+button:disabled,
+button[disabled] {
+  color: #ffffff;
+}
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+.table_responsive {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  border: 0px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #e6e6df;
+}
+
+tr:nth-child(odd) {
+  background-color: #f6f6ef;
+}
+
+td {
+  min-width: 25px;
+}
+.right {
+  text-align-last: end;
+}
+.p_l_1 {
+  padding-left: 5px;
+}
+.p_l_2 {
+  padding-left: 10px;
+}
+.p_l_3 {
+  padding-left: 15px;
+}
+.p_l_4 {
+  padding-left: 20px;
+}
+/* For mobile phones: */
+[class*='col-'] {
+  width: 100%;
+}
+
+.author_color {
+  color: #c5bdbd;
+}
+
+.time_stamp {
+  color: #828282;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col_s_1 {
+    width: 8.33%;
+  }
+  .col_s_2 {
+    width: 16.66%;
+  }
+  .col_s_3 {
+    width: 25%;
+  }
+  .col_s_4 {
+    width: 33.33%;
+  }
+  .col_s_5 {
+    width: 41.66%;
+  }
+  .col_s_6 {
+    width: 50%;
+  }
+  .col_s_7 {
+    width: 58.33%;
+  }
+  .col_s_8 {
+    width: 66.66%;
+  }
+  .col_s_9 {
+    width: 75%;
+  }
+  .col_s_10 {
+    width: 83.33%;
+  }
+  .col_s_11 {
+    width: 91.66%;
+  }
+  .col_s_12 {
+    width: 100%;
+  }
+  .col_offset_2 {
+    margin-left: 12.66%;
+  }
+  .col_offset_3 {
+    margin-left: 16.66%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col_1 {
+    width: 8.33%;
+  }
+  .col_2 {
+    width: 16.66%;
+  }
+  .col_3 {
+    width: 25%;
+  }
+  .col_4 {
+    width: 33.33%;
+  }
+  .col_5 {
+    width: 41.66%;
+  }
+  .col_6 {
+    width: 50%;
+  }
+  .col_7 {
+    width: 58.33%;
+  }
+  .col_8 {
+    width: 66.66%;
+  }
+  .col_9 {
+    width: 75%;
+  }
+  .col_10 {
+    width: 83.33%;
+  }
+  .col_11 {
+    width: 91.66%;
+  }
+  .col_12 {
+    width: 100%;
+  }
+  .col_offset_2 {
+    margin-left: 12.66%;
+  }
+  .col_offset_3 {
+    margin-left: 16.6%;
+  }
+}
+
+.bg_red {
+  background: #e96429;
+  color: black;
+}
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Add animation to "page content" */
+.animate_bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+ul {
+  display: inline-flex;
+  list-style: none;
+  padding-inline-start: 10px;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}

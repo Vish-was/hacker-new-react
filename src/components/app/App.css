@@ -1,0 +1,19 @@
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 10pt;
+  color: #828282;
+}
+td {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 10pt;
+  color: #000000;
+}
+
+a:link {
+  color: #aa8980;
+  text-decoration: none;
+}
+a:visited {
+  color: #828282;
+  text-decoration: none;
+}
